@@ -39,7 +39,7 @@ function Header() {
 export default Header
 
 const Nav = styled.nav`
-  height: 80px;
+  height: var(--header-height);
   background: #090b13;
   display: flex;
   align-items: center;
